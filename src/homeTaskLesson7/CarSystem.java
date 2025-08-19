@@ -8,9 +8,10 @@ public class CarSystem {
         System.out.println(renaultCar);
         System.out.println(fordCar);
         //Yoxlama emeliyyatlari ucun allCarModels arrayini yaratdiq
+        System.out.println("Github trial");
         int carCount=6;
         CarModels[] allCars = new CarModels[carCount];
-        System.out.println("\n-----Car models info-----");
+        System.out.println("\n------Car models info-----");
         //Serte uygun olaraq default masinlar yaratdiq
         CarModels clio = new CarModels("Clio",2016,2.0,"Gasoline",16500,renaultCar);
         allCars[0]=clio;
